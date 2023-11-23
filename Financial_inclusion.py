@@ -91,7 +91,7 @@ st.markdown('<br2>', unsafe_allow_html= True)
 st.markdown("<p>The endeavor to guarantee that all individuals and businesses, irrespective of their financial status, have access to basic financial services such as credit, banking, and insurance is known as financial inclusion. Giving people the tools they need to manage their money wiselysaving, borrowing, and risk-averseis the main objective, especially for those living in underprivileged areas. Financial inclusion seeks to advance economic development, lessen poverty, and create a more robust and comprehensive financial system by improving accessibility, affordability, and technological innovation. This project aims to identify the people who are most likely to have or use a bank account.</p>",unsafe_allow_html= True)
 
 
-st.sidebar.image('')
+st.sidebar.image('pngwing.com (6).png')
 
 dx = data[['country', 'year', 'location_type', 'cellphone_access',
        'household_size', 'age_of_respondent', 'gender_of_respondent',
