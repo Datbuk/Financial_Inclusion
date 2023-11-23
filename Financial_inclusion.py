@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 import pickle
 
-data = pd.read_csv('Financial_inclusion_dataset.csv')
+data = pd.read_csv('Financial_inclusion_dataset (2).csv')
 data.head()
 
 df = data.copy()
