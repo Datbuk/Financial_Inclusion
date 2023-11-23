@@ -83,7 +83,7 @@ model = pickle.load(open('Financial_inclusion.pkl','rb'))
 
 st.markdown("<h1 style = 'color: #00092C; text-align: center;font-family: Arial, Helvetica, sans-serif; '>FINANCIAL INCLUSION</h1>", unsafe_allow_html= True)
 st.markdown("<h3 style = 'margin: -25px; color: #45474B; text-align: center;font-family: Arial, Helvetica, sans-serif; '> Interactive Insights into Banking and Financial Access</h3>", unsafe_allow_html= True)
-st.image('image 1.png', width = 600)
+st.image('finance.jpeg', width = 600)
 st.markdown("<h2 style = 'color: #0F0F0F; text-align: center;font-family: Arial, Helvetica, sans-serif; '>BACKGROUND OF STUDY </h2>", unsafe_allow_html= True)
 
 st.markdown('<br2>', unsafe_allow_html= True)
@@ -91,7 +91,7 @@ st.markdown('<br2>', unsafe_allow_html= True)
 st.markdown("<p>The endeavor to guarantee that all individuals and businesses, irrespective of their financial status, have access to basic financial services such as credit, banking, and insurance is known as financial inclusion. Giving people the tools they need to manage their money wiselysaving, borrowing, and risk-averseis the main objective, especially for those living in underprivileged areas. Financial inclusion seeks to advance economic development, lessen poverty, and create a more robust and comprehensive financial system by improving accessibility, affordability, and technological innovation. This project aims to identify the people who are most likely to have or use a bank account.</p>",unsafe_allow_html= True)
 
 
-st.sidebar.image('finance.jpeg')
+st.sidebar.image('')
 
 dx = data[['country', 'year', 'location_type', 'cellphone_access',
        'household_size', 'age_of_respondent', 'gender_of_respondent',
