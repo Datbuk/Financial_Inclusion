@@ -164,4 +164,4 @@ if st.button('Press To Predict'):
         st.success('the person has an account')
 
 st.markdown('<hr>', unsafe_allow_html=True)
-st.markdown("<h8>FINANCIAL INCLUSION built by Adekunle Mojeed</h8>", unsafe_allow_html=True)
+st.markdown("<h8>FINANCIAL INCLUSION built by Datbuk</h8>", unsafe_allow_html=True)
