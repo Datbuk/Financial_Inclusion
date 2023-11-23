@@ -156,7 +156,7 @@ st.markdown("<h2 style = 'color: #0A2647; text-align: center; font-family: helve
 if st.button('Press To Predict'):
     predicted = model.predict(input_variable)
     st.toast('bank_account Predicted')
-    st.image('image.jpg', width = 100)
+    st.image('check.jpeg', width = 100)
     st.success(f'Model Predicted {predicted}')
     if predicted == 0:
         st.success('The person does not have an account')
